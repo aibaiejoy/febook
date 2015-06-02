@@ -1,4 +1,4 @@
-# aibaidjoy
+# febook
 
 ## 访问地址
 > http://aibaiejoy.github.io/febook/
@@ -21,11 +21,6 @@
 		git push origin gh-pages
 5. 访问[febook](http://aibaiejoy.github.io/febook/)
 
-切换出master分支目录。我们需要将gh-pages分支内容存放到另一个目录中去。
-克隆gh-pages分支：git clone -b gh-pages https://github.com/aibaiejoy/febook.git febook-end 这步我们只克隆了gh-pages分支，并存放在一个新的目录febook-end里面。
-Copy静态多站代码到book-end目录中。
-Push到仓库。
-
 ## gitbook 安装
 
 	sudo npm install -g gitbook-cli
@@ -38,10 +33,6 @@ Push到仓库。
 	SUMMARY.md  导航
 	README.md   简介
 	其他.md的文件
-
-	* gitbook build * 把*.md文件编译成html文件并放到 _book下。
-
-	把_book下文件push到gh-pages分支，就可以了。
 
 3. 参考资料
 	[Gitbook 使用入门](http://wanqingwong.com/gitbook-zh/publish/gitpages.html)  
