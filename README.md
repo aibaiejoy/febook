@@ -1,7 +1,15 @@
 # aibaidjoy
 
+## 访问地址
+> http://aibaiejoy.github.io/febook/
+目录：
+febook
+	git clone https://github.com/aibaiejoy/febook.git febook
 
-> http://aibaiejoy.github.io/aibaidjoy/help/mac-help.html
+febook-end
+	git clone -b gh-pages https://github.com/aibaiejoy/febook.git febook-end 
+
+在这两个目录的父目录执行 gitbook build febook febook-end
 
 切换出master分支目录。我们需要将gh-pages分支内容存放到另一个目录中去。
 克隆gh-pages分支：git clone -b gh-pages git@github.com:USERNAME/book.git book-end。这步我们只克隆了gh-pages分支，并存放在一个新的目录book-end里面。
