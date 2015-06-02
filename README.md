@@ -30,9 +30,9 @@
 
 2. 目录结构
 	
-	SUMMARY.md  导航
-	README.md   简介
-	其他.md的文件
+		-- SUMMARY.md  导航
+		-- README.md   简介
+		-- 其他.md的文件
 
 3. 参考资料
 	[Gitbook 使用入门](http://wanqingwong.com/gitbook-zh/publish/gitpages.html)  
