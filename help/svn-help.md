@@ -1,3 +1,5 @@
+<script src='./util.js'></script>
+
 #svn help
 
 ## svn resolve

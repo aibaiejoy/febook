@@ -28,7 +28,7 @@
 	引用
 		# Changes to be committed: 
 		#   (use "git reset HEAD <file>..." to unstage) 
-		# 
+	//	# 
 		# new file:   Test.scala 
 		
 		git reset 取消add状态。
@@ -51,4 +51,7 @@
 
 	remote.origin.url=git@gitlab.rd.chanjet.com:gongzuoquan/gongzuoquan-resource.git
 	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-	
+
+## git log
+	我们通过'git log -p'命令来显示每一次提交与其父节点提交内容之间快照的差异
+	git log --stat -p src/index.html
